@@ -75,7 +75,7 @@ public class DomeControl extends MVCPortlet {
 		editJSP = getInitParameter("edit-jsp");
 		viewJSP = getInitParameter("view-jsp");
 		errorJSP = getInitParameter("error-jsp");
-
+		//TODO 
 		operations = new Hashtable<String, String>();
 
 		super.init();
